@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>${rootArtifactId}-bundle</artifactId>
+            <artifactId>core</artifactId>
             <version>${version}</version>
         </dependency>
     </dependencies>
@@ -65,7 +65,7 @@
                     <embeddeds>
                         <embedded>
                             <groupId>${project.groupId}</groupId>
-                            <artifactId>${rootArtifactId}-bundle</artifactId>
+                            <artifactId>core</artifactId>
                             <target>/apps/${rootArtifactId}/install</target>
                         </embedded>
 
