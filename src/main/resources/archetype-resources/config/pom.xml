@@ -63,7 +63,7 @@
     <profiles>
         <!-- This profile will be active when the normal package install is completed -->
         <profile>
-            <id>autoInstallConfig</id>
+            <id>config</id>
             <build>
                 <plugins>
                     <plugin>
@@ -85,7 +85,7 @@
 
         <!-- This profile is to be used for  -->
         <profile>
-            <id>autoInstallConfigOnly</id>
+            <id>full-install</id>
             <build>
                 <plugins>
                     <plugin>
